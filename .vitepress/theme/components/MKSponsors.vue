@@ -112,5 +112,5 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: -3px;
-  }
+}
 </style>

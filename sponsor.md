@@ -14,12 +14,14 @@ footer: false
 To showcase your company or project at MoneroKon 2025, contact us at [orga@monerokon.org](mailto:orga@monerokon.com).
 
 <table>
-<tbody>
+<thead>
 <tr>
-<td><h3>Supporter</h3></td>
-<td><h3>Contributor</h3></td>
-<td><h3>Cypherpunk Hero</h3></td>
+<th>Supporter</th>
+<th>Contributor</th>
+<th>Cypherpunk Hero</th>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td> - </td>
 <td> - </td>

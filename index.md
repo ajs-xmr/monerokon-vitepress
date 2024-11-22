@@ -24,7 +24,6 @@ const sponsors = [
       { url: 'https://cakewallet.com', img: {src: CakeWallet, alt: 'Cake Wallet'}},
     { url: 'https://www.digilol.net', img: {src: Digilol, alt: 'Digilol'} },
 //    { url: 'https://www.vostoemisio.com', img: {src: VostoEmisio, alt: 'VOSTO EMISIO'} },
-
 ]
 </script>
 

@@ -1,6 +1,7 @@
 <script>
 import "leaflet/dist/leaflet.css";
 import { LMap, LTileLayer, LMarker } from "@vue-leaflet/vue-leaflet";
+import L from "leaflet";
 
 export default {
     components: {
@@ -36,10 +37,10 @@ export default {
                         <p style="margin: 1.5em 0;"><span class="thicc">Volunteers</span></p>
                         <p>We need lots of help to get this community-driven event off the ground, from graphic
                             designers, help with attendee registration, to stagehands. If you would like to volunteer in
-                            some capacity, contact us at orga@monerokon.org.</p>
+                            some capacity, contact us at <a href="orga@monerokon.org">orga@monerokon.org</a>.</p>
                     </div>
                 </div>
-                <div>
+                <div style="min-height: 15em">
                     <l-map ref="map" v-model:zoom="zoom" :center="[50.103398, 14.450502]" :use-global-leaflet="false">
                         <l-tile-layer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" layer-type="base"
                             name="OpenStreetMap" :attribution="attribution"></l-tile-layer>
@@ -91,8 +92,15 @@ export default {
     }
 }
 
-
 h2 {
     margin: 1em 0;
+}
+
+a {
+    font-weight: 500;
+    color: var(--vp-c-brand-1);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color 0.25s, opacity 0.25s;
 }
 </style>
