@@ -36,7 +36,7 @@ export default {
                         <p style="margin: 1.5em 0;"><span class="thicc">Volunteers</span></p>
                         <p>We need lots of help to get this community-driven event off the ground, from graphic
                             designers, help with attendee registration, to stagehands. If you would like to volunteer in
-                            some capacity, contact us at <a href="orga@monerokon.org">orga@monerokon.org</a>.</p>
+                            some capacity, contact us at <a href="mailto:orga@monerokon.org">orga@monerokon.org</a>.</p>
                     </div>
                 </div>
                 <div style="min-height: 15em">
