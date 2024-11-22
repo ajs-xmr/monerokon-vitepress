@@ -24,7 +24,7 @@ export default {
                 <div>
                     <div>
                         <p><span class="thicc">Date: </span><span class="thin">20th - 22nd June 2O25</span></p>
-                        <p style="margin-bottom: 1.5em;"><span class="thicc">Location: </span><span class="thin">Second
+                        <p style="margin-bottom: 1.5em; margin-top: .5em;"><span class="thicc">Location: </span><span class="thin">Second
                                 Culture / La Fabrika</span></p>
                         <p>
                             Monero Konferenco (“MoneroKon”) is an annual meeting of privacy advocates, cypherpunks,
@@ -45,6 +45,7 @@ export default {
                             name="OpenStreetMap" :attribution="attribution"></l-tile-layer>
                         <l-marker :lat-lng="[50.103398, 14.450502]" />
                     </l-map>
+                    <p style="margin-top:1em;">Venue address: 475/43, Dělnická, 170 00 Praha 7, Czechia</p>
                 </div>
             </div>
         </div>

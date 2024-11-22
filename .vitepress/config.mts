@@ -11,8 +11,18 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Sponsor', link: '/sponsor' },
-      { text: 'Donate', items: [{ text: 'Cryptocurrency', link: 'https://nowpayments.io/donation/mk5' }, { text: 'Fiat Money', link: 'https://donate.stripe.com/3cs01M9qtbol396fYY' }] },
-      { text: 'Guides', items: [{ text: 'Volunteer', link: '/guides/volunteer' }] },
+      {
+        text: 'Donate', items: [
+          { text: 'Cryptocurrency', link: 'https://nowpayments.io/donation/mk5' },
+          { text: 'Card', link: 'https://donate.stripe.com/3cs01M9qtbol396fYY' },
+          { text: 'Bank Transfer', link: 'https://twed.org/donate.html#bank-tranfer' }
+        ]
+      },
+      {
+        text: 'Guides', items: [
+          { text: 'Volunteer', link: '/guides/volunteer' }
+        ]
+      },
       {
         text: 'Policies', items: [
           { text: 'Event & Sponsor Policies', link: '/policy' },
