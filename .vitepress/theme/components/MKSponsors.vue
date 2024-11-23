@@ -67,6 +67,7 @@ const props = defineProps<{
 @media (min-width: 960px) {
     .wrapper {
         grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        grid-gap: 3em;
     }
 
     /*.wrapper div {

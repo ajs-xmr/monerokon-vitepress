@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Monero Konferenco",
   description: "A conference in privacy-enhancing technologies and distributed systems.",
   themeConfig: {
-    logo: { dark: "MKLogoDark.svg", light: "MKLogoLight.svg", alt: "Monero Konferenco" },
+    logo: { dark: "/MKLogoDark.svg", light: "/MKLogoLight.svg", alt: "Monero Konferenco" },
     siteTitle: false,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -29,7 +29,14 @@ export default defineConfig({
           { text: 'Privacy Policy', link: '/privacy' }
         ]
       },
-      { text: 'Archive', link: '/past_events/2024' },
+      {
+        text: 'Archive', items: [
+          { text: '2024', link: '/past_events/2024' },
+          { text: '2023', link: '/past_events/2023' },
+          { text: '2022', link: '/past_events/2022' },
+          { text: '2019', link: '/past_events/2019' },
+        ]
+      },
       { text: 'Blog', link: '/blog/mk24-press-release' },
     ],
 
