@@ -4,6 +4,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Monero Konferenco",
   description: "A conference in privacy-enhancing technologies and distributed systems.",
+  sitemap: {
+    hostname: 'https://www.monerokon.org'
+  },
+  lastUpdated: true,
   themeConfig: {
     logo: { dark: "/MKLogoDark.svg", light: "/MKLogoLight.svg", alt: "Monero Konferenco" },
     siteTitle: false,
@@ -20,13 +24,16 @@ export default defineConfig({
       },
       {
         text: 'Guides', items: [
-          { text: 'Volunteer', link: '/guides/volunteer' }
+          { text: 'Volunteer', link: '/guides/volunteer' },
+          { text: 'Press Kit', link: '/guides/press_kit' }
         ]
       },
       {
         text: 'Policies', items: [
-          { text: 'Event & Sponsor Policies', link: '/policy' },
-          { text: 'Privacy Policy', link: '/privacy' }
+          { text: 'Event Policy', link: '/policies/event_policy' },
+          { text: 'Sponsorship Policy', link: '/policies/sponsorship_policy' },
+          { text: 'Chat Moderation Policy', link: '/policies/chat_policy' },
+          { text: 'Privacy Policy', link: '/policies/privacy_policy' }
         ]
       },
       {
@@ -48,7 +55,8 @@ export default defineConfig({
       },
       {
         text: 'Guides', items: [
-          { text: 'Volunteer Guide', link: '/guides/volunteer' }
+          { text: 'Volunteer Guide', link: '/guides/volunteer' },
+          { text: 'Press Kit', link: '/guides/press_kit' }
         ]
       },
       {

@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Policies
+title: Event Policy
 description: All life forms, regardless of their age, gender or upbringing are welcomed at MoneroKon.
 head:
   - - meta
@@ -13,7 +13,7 @@ sidebar: false
 footer: false
 ---
 
-# Policies
+# MoneroKon Event Policy
 
 ## Safety and Security
 
@@ -29,15 +29,15 @@ Ask before snapping, all persons in a photo/video must have explicitly given con
 
 ## Chat Moderation
 
-Chat moderation policy is primarily based on Libera.Chat’s Network Policies/Guidelines and Matrix Code of Conduct. The policy can be found [here](https://github.com/MoneroKon/meta/blob/main/policies/chat-mod.md).
+Chat moderation policy is primarily based on Libera.Chat’s Network Policies/Guidelines and Matrix Code of Conduct. The policy can be found [here](/policies/chat_policy.md).
 
 ## Sponsor Policy
 
-To ensure clarity and openness in the sponsorship selection process, we have formalized a sponsor policy, which be found [here](https://github.com/MoneroKon/meta/blob/main/policies/sponsorship-policy.md).
+To ensure clarity and openness in the sponsorship selection process, we have formalized a sponsor policy, which be found [here](/policies/sponsorship_policy).
 
 ## Privacy Policy
 
-We aim to minimize the collection of personal data used for processing orders and communicating event announcements. After the event, we delete the data. More details can be found [here](/privacy).
+We aim to minimize the collection of personal data used for processing orders and communicating event announcements. After the event, we delete the data. More details can be found [here](/policies/privacy_policy).
 
 ## Ticket Refund Policy
 

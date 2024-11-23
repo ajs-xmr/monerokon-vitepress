@@ -28,7 +28,7 @@ const props = defineProps<{
                         <VPImage class="project-logo" :image="item.img" />
                     </a>
                 </div>
-                <div class="cell">
+                <div class="cell zebutton">
                     <VPButton size="big" text="<- Become a sponsor" href="/sponsor" />
                 </div>
             </div>
@@ -70,6 +70,9 @@ const props = defineProps<{
         grid-gap: 3em;
     }
 
+    .zebutton {
+        margin-left: 3em;
+    }
     /*.wrapper div {
         aspect-ratio: 1 / 1;
     }*/

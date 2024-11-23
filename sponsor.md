@@ -29,12 +29,22 @@ To showcase your company or project at MoneroKon 2025, contact us at [orga@moner
 <tr>
 <td> - </td>
 <td> - </td>
+<td><strong>Logo placement for 1 year</strong> - company logo placement on all pages of the desktop version of this website</td>
+</tr>
+<tr>
+<td> - </td>
+<td> - </td>
 <td><strong>Video Presence</strong> - company logo shown frequently during live stream</td>
 </tr>
 <tr>
 <td> - </td>
 <td> - </td>
 <td><strong>Social Media Presence</strong> - company name acknowledgements in all MoneroKon social media accounts</td>
+</tr>
+<tr>
+<td> - </td>
+<td><strong>Exclusive Interview</strong> - interview with the company shared on all MoneroKon social media accounts</td>
+<td><strong>Exclusive Interview</strong> - interview with the company shared on all MoneroKon social media accounts</td>
 </tr>
 <tr>
 <td> - </td>
@@ -52,14 +62,14 @@ To showcase your company or project at MoneroKon 2025, contact us at [orga@moner
 <td>6 x Free General Admission promotional codes</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>6 available</td>
+<td>6 available</td>
+<td>Sold out!</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
+<td>2100 EUR*</td>
+<td>5200 EUR</td>
+<td>9500 EUR</td>
 </tr>
 </tbody>
 </table>

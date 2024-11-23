@@ -6,12 +6,14 @@ import './font.css'
 import './style.css'
 import MKSponsors from './components/MKSponsors.vue'
 import MKEventInfo from './components/MKEventInfo.vue'
+import MKAsideSponsors from './components/MKAsideSponsors.vue'
 
 export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      'aside-ads-before': () => h(MKAsideSponsors),
     })
   },
   enhanceApp({ app, router, siteData }) {
