@@ -2,6 +2,11 @@
 layout: doc
 title: Privacy Policy
 description: MoneroKon's Privacy Policy
+head:
+  - - meta
+    - name: 'og:image'
+      content: https://www.monerokon.org/og.png
+
 prev: false
 next: false
 sidebar: false

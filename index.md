@@ -1,6 +1,12 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: A technical conference in privacy and financial technology
+description: Monero Konferenco (“MoneroKon”) is an annual meeting of privacy advocates, cypherpunks, researchers, and developers and is designed to disseminate scientific and technical results in privacy-enhancing technologies and distributed systems.
+head:
+  - - meta
+    - name: 'og:image'
+      content: https://www.monerokon.org/og.png
 
 hero:
   text: "A technical conference in <b>privacy and financial technology"

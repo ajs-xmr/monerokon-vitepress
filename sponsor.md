@@ -2,12 +2,16 @@
 layout: doc
 title: Sponsor
 description: To showcase your company or project at MoneroKon 2025, sponsor us.
+head:
+  - - meta
+    - name: 'og:image'
+      content: https://www.monerokon.org/og.png
+
 prev: false
 next: false
 sidebar: false
 footer: false
 ---
-
 
 # Sponsorship
 

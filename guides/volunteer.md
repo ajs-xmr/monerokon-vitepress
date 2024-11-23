@@ -2,6 +2,11 @@
 layout: doc
 title: Volunteer Guide
 description: Monero Konferenco volunteers' guide.
+head:
+  - - meta
+    - name: 'og:image'
+      content: https://www.monerokon.org/og.png
+
 ---
 
 # Volunteer Guide

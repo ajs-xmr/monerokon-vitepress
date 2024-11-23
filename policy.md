@@ -2,6 +2,11 @@
 layout: doc
 title: Policies
 description: All life forms, regardless of their age, gender or upbringing are welcomed at MoneroKon.
+head:
+  - - meta
+    - name: 'og:image'
+      content: https://www.monerokon.org/og.png
+
 prev: false
 next: false
 sidebar: false
