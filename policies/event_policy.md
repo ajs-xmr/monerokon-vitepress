@@ -27,18 +27,6 @@ The MoneroKon will always be a place where people can enjoy technology and cultu
 
 Ask before snapping, all persons in a photo/video must have explicitly given consent to be photographed/recorded. As such, please avoid taking photos/video of large crowds, audience, or workshop participants.
 
-## Chat Moderation
-
-Chat moderation policy is primarily based on Libera.Chat’s Network Policies/Guidelines and Matrix Code of Conduct. The policy can be found [here](/policies/chat_policy.md).
-
-## Sponsor Policy
-
-To ensure clarity and openness in the sponsorship selection process, we have formalized a sponsor policy, which be found [here](/policies/sponsorship_policy).
-
-## Privacy Policy
-
-We aim to minimize the collection of personal data used for processing orders and communicating event announcements. After the event, we delete the data. More details can be found [here](/policies/privacy_policy).
-
 ## Ticket Refund Policy
 
 All sales are final, no refunds. The 'right of withdrawal' does not apply to contracts for cultural and sporting events scheduled on specific dates.
