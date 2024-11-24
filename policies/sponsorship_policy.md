@@ -40,7 +40,7 @@ MoneroKon will respectfully decline sponsorship offers from businesses that:
 
 ## Sponsor Selection Process
 
-1. Company sends email to sponsor@monerokon.org
+1. Company sends email to sponsors@monerokon.org
 2. MoneroKon representative informs company of available sponsorship package, pricing, and this community selection process.
 3. If company is interested in becoming a sponsor, the representative adds an item to agenda of the weekly planning meeting that is held in IRC/Matrix #monerokon.
 4. The representative conducts a due diligence check of company with the search of public records for background information, complaints, and/or reviews regarding company’s products or service.

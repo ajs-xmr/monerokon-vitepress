@@ -15,7 +15,7 @@ footer: false
 
 # Sponsorship
 
-To showcase your company or project at MoneroKon 2025, contact us at [orga@monerokon.org](mailto:orga@monerokon.com).
+To showcase your company or project at MoneroKon 2025, contact us at [sponsors@monerokon.org](mailto:sponsors@monerokon.com).
 
 <table>
 <thead>
