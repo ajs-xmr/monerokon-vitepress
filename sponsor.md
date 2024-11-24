@@ -62,14 +62,14 @@ To showcase your company or project at MoneroKon 2025, contact us at [orga@moner
 <td>6 x Free General Admission promotional codes</td>
 </tr>
 <tr>
+<td>4 available</td>
 <td>6 available</td>
-<td>6 available</td>
-<td>Sold out!</td>
+<td>2 available</td>
 </tr>
 <tr>
 <td>2100 EUR*</td>
 <td>5200 EUR</td>
-<td>9500 EUR</td>
+<td>9900 EUR</td>
 </tr>
 </tbody>
 </table>
