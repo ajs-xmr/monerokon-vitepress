@@ -40,7 +40,7 @@ MoneroKon will respectfully decline sponsorship offers from businesses that:
 
 ## Sponsor Selection Process
 
-1. Company sends email to sponsor@monerokon.com
+1. Company sends email to sponsor@monerokon.org
 2. MoneroKon representative informs company of available sponsorship package, pricing, and this community selection process.
 3. If company is interested in becoming a sponsor, the representative adds an item to agenda of the weekly planning meeting that is held in IRC/Matrix #monerokon.
 4. The representative conducts a due diligence check of company with the search of public records for background information, complaints, and/or reviews regarding company’s products or service.
@@ -50,7 +50,7 @@ MoneroKon will respectfully decline sponsorship offers from businesses that:
 8. If the number is negative or 0, company is rejected
 9. The representative informs company of result of the vote.
 10. If company is accepted as a sponsor, sponsorship slots are allocated to companies on a _first come, first served_ basis
-11. T.E. z.s. (an LLC MoneroKon is using for contracting with the venue and suppliers) will send out an invoice for the selected sponsorship package within 5 business days.
+11. T.E. z.s. (a non-profit assocation MoneroKon is using for contracting with the venue and suppliers) will send out an invoice for the selected sponsorship package within 5 business days.
 12. After T.E. z.s. has confirmed the payment of the invoice, the company is added to the MoneroKon website as a sponsor and a public acknowledgement will be tweeted out from @monerokon account.
 
 ## Sponsor Expulsion
