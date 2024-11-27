@@ -15,7 +15,7 @@ footer: false
 
 # Sponsorship
 
-To showcase your company or project at MoneroKon 2025, contact us at [sponsors@monerokon.org](mailto:sponsors@monerokon.com).
+To showcase your company or project at MoneroKon 2025, contact us at [sponsors@monerokon.org](mailto:sponsors@monerokon.org).
 
 <table>
 <thead>
@@ -64,12 +64,12 @@ To showcase your company or project at MoneroKon 2025, contact us at [sponsors@m
 <tr>
 <td>4 available</td>
 <td>6 available</td>
-<td>2 available</td>
+<td><s>2 available</s></td>
 </tr>
 <tr>
 <td>2100 EUR*</td>
 <td>5200 EUR</td>
-<td>9900 EUR</td>
+<td><s>9900 EUR</s> <b>SOLD OUT</b></td>
 </tr>
 </tbody>
 </table>
