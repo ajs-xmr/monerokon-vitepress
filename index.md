@@ -24,12 +24,12 @@ markdownStyles: false
 <script setup>
 import Digilol from './sponsors/digilol.svg'
 import VostoEmisio from './sponsors/vostoemisio.png'
-import CakeWallet from './sponsors/cake.webp'
+import CakeWallet from './sponsors/cake.png'
 import Trocador from './sponsors/trocador.svg'
 
 const sponsors = [
-    //{ url: 'https://cakewallet.com', img: {src: CakeWallet, alt: 'Cake Wallet'}},
-    //{ url: 'https://trocador.app', img: {src: Trocador, alt: 'Trocador' }},
+    { url: 'https://trocador.app', img: {src: Trocador, alt: 'Trocador' } },
+    { url: 'https://cakewallet.com', img: {src: CakeWallet, alt: 'Cake Wallet'} },
     { url: 'https://www.vostoemisio.com', img: {src: VostoEmisio, alt: 'VOSTO EMISIO'} },
     { url: 'https://www.digilol.net', img: {src: Digilol, alt: 'Digilol'} },
 ]

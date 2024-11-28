@@ -23,7 +23,7 @@ const props = defineProps<{
                 <div class="cell">
                     <h2 class="title">{{ title }}</h2>
                 </div>
-                <div class="cell" v-for="item in sponsors">
+                <div class="cell sponsor" v-for="item in sponsors">
                     <a class="link" :href="item.url">
                         <VPImage class="project-logo" :image="item.img" />
                     </a>
@@ -64,6 +64,10 @@ const props = defineProps<{
     margin: 0 auto;
 }
 
+.sponsor a {
+    aspect-ratio: 1 / 1;
+}
+
 @media (min-width: 960px) {
     .wrapper {
         grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
@@ -73,9 +77,6 @@ const props = defineProps<{
     .zebutton {
         margin-left: 3em;
     }
-    /*.wrapper div {
-        aspect-ratio: 1 / 1;
-    }*/
 }
 
 @media (max-width: 960px) {
@@ -87,7 +88,12 @@ const props = defineProps<{
     }
 
     .wrapper {
-        padding: 48px;
+        grid-gap: 0em;
+        padding: 2.5em;
+    }
+
+    .sponsor a {
+        max-width: 120px;
     }
 }
 
