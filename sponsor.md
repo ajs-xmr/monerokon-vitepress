@@ -76,7 +76,7 @@ To showcase your company or project at MoneroKon 2025, contact us at [sponsors@m
 
 *Monetary contribution or in-kind products/services of similar value
 
-# Media Partners
+## Media Partners
 
 MoneroKon is open to collaboration with media organizations, content creators and social media influencers. We are able to offer:
 
@@ -87,7 +87,7 @@ MoneroKon is open to collaboration with media organizations, content creators an
 
 Reach out to us at [sponsors+media@monerokon.org](mailto:sponsors+media@monerokon.org).
 
-# Community Partners
+## Community Partners
 
 We are looking to partner with likeminded communities, movements, collectives that support the values of privacy, freedom, and decentralization.  Community Partners receive the benefits of:
 
