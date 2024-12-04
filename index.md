@@ -17,7 +17,7 @@ hero:
       link: 'https://shop.twed.org/twed/MK5'
     - theme: alt
       text: Submit Talks
-      link: '#'
+      link: 'https://cfp.twed.org/mk5/cfp'
 
 markdownStyles: false
 ---

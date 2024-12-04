@@ -14,3 +14,4 @@ In this page you can find the design guidelines and assets for Monero Konferenco
 
 - Font used: JetBrains Mono
 - [Zip file containing logos and other imagery](/MK5_assets.zip)
+- [Zip file containing assets for social media](/MK5_logos_banner.zip)
