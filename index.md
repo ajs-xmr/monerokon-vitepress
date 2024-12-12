@@ -26,7 +26,7 @@ import Digilol from './sponsors/digilol.svg'
 import VostoEmisio from './sponsors/vostoemisio.png'
 import CakeWallet from './sponsors/cake.webp'
 import Trocador from './sponsors/trocador.svg'
-import Trocador from './sponsors/monerica-logo-with-site-transparent.svg'
+import Monerica from './sponsors/monerica-logo-with-site-transparent.svg'
 
 const sponsors = [
     //{ url: 'https://cakewallet.com', img: {src: CakeWallet, alt: 'Cake Wallet'}},
