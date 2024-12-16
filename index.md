@@ -26,11 +26,13 @@ import Digilol from './sponsors/digilol.svg'
 import VostoEmisio from './sponsors/vostoemisio.png'
 import CakeWallet from './sponsors/cake.png'
 import Trocador from './sponsors/trocador.svg'
-import Monerica from './sponsors/monerica-logo-with-site-transparent.svg'
+import Monerica from './sponsors/monerica.svg'
+import Firo from './sponsors/firo.svg'
 
 const sponsors = [
     { url: 'https://trocador.app', img: {src: Trocador, alt: 'Trocador' } },
     { url: 'https://cakewallet.com', img: {src: CakeWallet, alt: 'Cake Wallet'} },
+    { url: 'https://firo.org', img: {src: Firo, alt: 'Firo'} },
     { url: 'https://www.vostoemisio.com', img: {src: VostoEmisio, alt: 'VOSTO EMISIO'} },
     { url: 'https://www.digilol.net', img: {src: Digilol, alt: 'Digilol'} },
     { url: 'https://monerica.com', img: {src: Monerica, alt: 'Monerica'} },

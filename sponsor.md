@@ -62,8 +62,8 @@ To showcase your company or project at MoneroKon 2025, contact us at [sponsors@m
 <td>6 x Free General Admission promotional codes</td>
 </tr>
 <tr>
-<td>4 available</td>
-<td>6 available</td>
+<td>3 available (out of 6)</td>
+<td>5 available (out of 6)</td>
 <td><s>2 available</s></td>
 </tr>
 <tr>

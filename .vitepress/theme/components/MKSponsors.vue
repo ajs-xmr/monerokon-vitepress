@@ -19,18 +19,16 @@ const props = defineProps<{
 <template>
     <div class="MKSponsors">
         <div class="content">
+            <h2 class="title">{{ title }}</h2>
             <div class="wrapper">
-                <div class="cell">
-                    <h2 class="title">{{ title }}</h2>
-                </div>
                 <div class="cell sponsor" v-for="item in sponsors">
                     <a class="link" :href="item.url">
                         <VPImage class="project-logo" :image="item.img" />
                     </a>
                 </div>
-                <div class="cell zebutton">
-                    <VPButton size="big" text="<- Become a sponsor" href="/sponsor" />
-                </div>
+            </div>
+            <div class="MKSponsorBtn">
+                <VPButton text="Become a Sponsor" href="/sponsor" />
             </div>
         </div>
     </div>
@@ -39,7 +37,13 @@ const props = defineProps<{
 <style scoped>
 .title {
     text-align: center;
+    margin-top: 1em;
 
+}
+
+.MKSponsorBtn {
+    text-align: center;
+    margin-bottom: 2em;
 }
 
 .MKSponsors {
@@ -80,15 +84,9 @@ const props = defineProps<{
 }
 
 @media (max-width: 960px) {
-    .content {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-
-    }
-
     .wrapper {
-        grid-gap: 0em;
+        grid-gap: 1em;
+        grid-template-columns: 1fr 1fr 1fr;
         padding: 2.5em;
     }
 
