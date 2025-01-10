@@ -27,6 +27,7 @@ import VostoEmisio from './sponsors/vostoemisio.png'
 import CakeWallet from './sponsors/cake.webp'
 import Trocador from './sponsors/trocador.svg'
 import Monerica from './sponsors/monerica-logo-with-site-transparent.svg'
+import PrivacyGuardians from './sponsors/pg.jpg'
 
 const sponsors = [
     //{ url: 'https://cakewallet.com', img: {src: CakeWallet, alt: 'Cake Wallet'}},
@@ -34,6 +35,7 @@ const sponsors = [
     { url: 'https://www.vostoemisio.com', img: {src: VostoEmisio, alt: 'VOSTO EMISIO'} },
     { url: 'https://www.digilol.net', img: {src: Digilol, alt: 'Digilol'} },
     { url: 'https://monerica.com', img: {src: Monerica, alt: 'Monerica'} },
+    { url: 'https://x.com/privacyguardia', img: {src: PrivacyGuardians, alt: 'Privacy Guardians'} },
 ]
 </script>
 
