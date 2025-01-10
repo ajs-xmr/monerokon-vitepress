@@ -26,7 +26,7 @@ import Digilol from './sponsors/digilol.svg'
 import VostoEmisio from './sponsors/vostoemisio.png'
 import CakeWallet from './sponsors/cake.png'
 import Trocador from './sponsors/trocador.svg'
-import Monerica from './sponsors/monerica-logo-with-site-transparent.svg'
+import Monerica from './sponsors/monerica.svg'
 import Firo from './sponsors/firo.svg'
 import PrivacyGuardians from './sponsors/pg.jpg'
 
