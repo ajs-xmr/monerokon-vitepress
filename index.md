@@ -17,21 +17,23 @@ hero:
       link: 'https://shop.twed.org/twed/MK5'
     - theme: alt
       text: Submit Talks
-      link: '#'
+      link: 'https://cfp.twed.org/mk5/cfp'
 
 markdownStyles: false
 ---
 <script setup>
 import Digilol from './sponsors/digilol.svg'
 import VostoEmisio from './sponsors/vostoemisio.png'
-import CakeWallet from './sponsors/cake.webp'
+import CakeWallet from './sponsors/cake.png'
 import Trocador from './sponsors/trocador.svg'
 import Monerica from './sponsors/monerica-logo-with-site-transparent.svg'
+import Firo from './sponsors/firo.svg'
 import PrivacyGuardians from './sponsors/pg.jpg'
 
 const sponsors = [
-    //{ url: 'https://cakewallet.com', img: {src: CakeWallet, alt: 'Cake Wallet'}},
-    //{ url: 'https://trocador.app', img: {src: Trocador, alt: 'Trocador' }},
+    { url: 'https://trocador.app', img: {src: Trocador, alt: 'Trocador' } },
+    { url: 'https://cakewallet.com', img: {src: CakeWallet, alt: 'Cake Wallet'} },
+    { url: 'https://firo.org', img: {src: Firo, alt: 'Firo'} },
     { url: 'https://www.vostoemisio.com', img: {src: VostoEmisio, alt: 'VOSTO EMISIO'} },
     { url: 'https://www.digilol.net', img: {src: Digilol, alt: 'Digilol'} },
     { url: 'https://monerica.com', img: {src: Monerica, alt: 'Monerica'} },
