@@ -1,12 +1,13 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
-import DefaultTheme from  'vitepress/theme-without-fonts'
+import DefaultTheme from 'vitepress/theme-without-fonts'
 import './font.css'
 import './style.css'
 import MKSponsors from './components/MKSponsors.vue'
 import MKEventInfo from './components/MKEventInfo.vue'
 import MKAsideSponsors from './components/MKAsideSponsors.vue'
+import MKCommunityPartners from './components/MKCommunityPartners.vue'
 
 export default {
   extends: DefaultTheme,
@@ -19,5 +20,6 @@ export default {
   enhanceApp({ app, router, siteData }) {
     app.component('MKSponsors', MKSponsors)
     app.component('MKEventInfo', MKEventInfo)
+    app.component('MKCommunityPartners', MKCommunityPartners)
   }
 } satisfies Theme

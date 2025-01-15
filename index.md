@@ -28,7 +28,10 @@ import CakeWallet from './sponsors/cake.png'
 import Trocador from './sponsors/trocador.svg'
 import Monerica from './sponsors/monerica.svg'
 import Firo from './sponsors/firo.svg'
-import PrivacyGuardians from './sponsors/pg.jpg'
+
+import PrivacyGuardians from './community_partners/pg.jpg'
+import W3PN from './community_partners/w3pn.png'
+import LunarDAO from './community_partners/logo_lunardao.png'
 
 const sponsors = [
     { url: 'https://trocador.app', img: {src: Trocador, alt: 'Trocador' } },
@@ -37,11 +40,15 @@ const sponsors = [
     { url: 'https://www.vostoemisio.com', img: {src: VostoEmisio, alt: 'VOSTO EMISIO'} },
     { url: 'https://www.digilol.net', img: {src: Digilol, alt: 'Digilol'} },
     { url: 'https://monerica.com', img: {src: Monerica, alt: 'Monerica'} },
+]
+
+const communityPartners = [
     { url: 'https://x.com/privacyguardia', img: {src: PrivacyGuardians, alt: 'Privacy Guardians'} },
+    { url: 'https://web3privacy.info', img: {src: W3PN, alt: 'Web3Privacy Now'} },
+    { url: 'https://linktr.ee/lunardao', img: {src: LunarDAO, alt: 'LunarDAO'} },
 ]
 </script>
 
 <MKSponsors :sponsors="sponsors" :invite="true" title="Sponsors:" />
+<MKCommunityPartners :partners="communityPartners" />
 <MKEventInfo />
-
-

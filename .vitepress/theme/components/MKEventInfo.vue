@@ -40,7 +40,7 @@ export default {
                     </div>
                 </div>
                 <div style="min-height: 15em">
-                    <l-map ref="map" v-model:zoom="zoom" :center="[50.103398, 14.450502]" :use-global-leaflet="false">
+                    <l-map style="z-index: 0" ref="map" v-model:zoom="zoom" :center="[50.103398, 14.450502]" :use-global-leaflet="false">
                         <l-tile-layer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" layer-type="base"
                             name="OpenStreetMap" :attribution="attribution"></l-tile-layer>
                         <l-marker :lat-lng="[50.103398, 14.450502]" />
@@ -59,7 +59,7 @@ export default {
 }
 
 .section {
-    padding: 48px;
+    padding: 24px 48px;
 }
 
 .thicc {
