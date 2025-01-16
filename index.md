@@ -33,6 +33,8 @@ import PrivacyGuardians from './community_partners/pg.jpg'
 import W3PN from './community_partners/w3pn.png'
 import LunarDAO from './community_partners/logo_lunardao.png'
 
+import Tarnkappe from './media_partners/tarnkappe_info.png'
+
 const sponsors = [
     { url: 'https://trocador.app', img: {src: Trocador, alt: 'Trocador' } },
     { url: 'https://cakewallet.com', img: {src: CakeWallet, alt: 'Cake Wallet'} },
@@ -47,8 +49,14 @@ const communityPartners = [
     { url: 'https://web3privacy.info', img: {src: W3PN, alt: 'Web3Privacy Now'} },
     { url: 'https://linktr.ee/lunardao', img: {src: LunarDAO, alt: 'LunarDAO'} },
 ]
+
+const mediaPartners = [
+    { url: 'https://tarnkappe.info', img: {src: Tarnkappe, alt: 'Tarnkappe'} },
+]
+
 </script>
 
 <MKSponsors :sponsors="sponsors" :invite="true" title="Sponsors:" />
 <MKCommunityPartners :partners="communityPartners" />
+<MKMediaPartners :partners="mediaPartners" />
 <MKEventInfo />
