@@ -44,13 +44,14 @@ export default defineConfig({
           { text: '2019', link: '/past_events/2019' },
         ]
       },
-      { text: 'Blog', link: '/blog/mk24-press-release' },
+      { text: 'Blog', link: '/blog/mk25-press-release' },
     ],
 
     sidebar: [
       {
         text: 'Blog', items: [
-          { text: 'MoneroKon24 Press Release', link: '/blog/mk24-press-release' }
+          { text: 'MoneroKon25 Press Release', link: '/blog/mk25-press-release' },
+          { text: 'MoneroKon24 Press Release', link: '/blog/mk24-press-release' },
         ]
       },
       {

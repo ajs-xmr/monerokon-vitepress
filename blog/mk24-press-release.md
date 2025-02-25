@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Monero Konference 2024 Press Release
+title: Monero Konferenco 2024 Press Release
 description: Privacy Advocates and Hackers to Gather for Annual Monero Conference & Hackathon in Prague
 head:
   - - meta
@@ -11,7 +11,7 @@ head:
 
 # Privacy Advocates and Hackers to Gather for Annual Monero Conference & Hackathon in Prague
 
-PRAGUE -- MoneroKon is to take place at Paralelní Polis, Prague from 7th to 9th June 2024. The conference & hackathon is dedicated to Security, Privacy, & Decentralization.
+PRAGUE — MoneroKon is to take place at Paralelní Polis, Prague from 7th to 9th June 2024. The conference & hackathon is dedicated to Security, Privacy, & Decentralization.
 
 Monero Konferenco (also known as 'MoneroKon') brings together global privacy advocates, cypherpunks, and leading scientists to discuss advancements in privacy and financial technology. The 3-day conference is to take place at the renowned Paralelní Polis in Prague, Czech Republic from 7th-9th June 2024.
 
