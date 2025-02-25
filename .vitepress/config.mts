@@ -81,8 +81,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'T.E. z.s., Rybná 716/24, Staré Město, 110 00 Praha 1, Czechia',
-      copyright: 'Copyright © 2024 T.E. z.s.'
+      message: 'T.E. z.s., Rybná 716/24, Staré Město, 110 00 Praha 1, Czechia<br>T.E. does not endorse, support, or condone the actions, beliefs, or affiliations of its sponsors.',
+      copyright: 'Copyright © 2025 T.E. z.s.'
     },
   }
 })

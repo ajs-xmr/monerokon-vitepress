@@ -56,3 +56,7 @@ MoneroKon will respectfully decline sponsorship offers from businesses that:
 ## Sponsor Expulsion
 
 At anytime, if facts or circumstances call in to question the reliability, integrity of a sponsor, or through acts/omissions violate the Monero Konferenco Guiding Principles, the sponsor may be expelled by majority vote of regularly attending community meeting partipants and known Monero contributors. Any monetary or in-kind products/services contributions shall be returned to the sponsor and all references to said sponsor expunged from Monero Konferenco website and marketing materials.
+
+## Sponsor Endorsement
+
+T.E. (MoneroKon organizing team) does not endorse, support, or condone the actions, beliefs, or affiliations of its sponsors. T.E. does not assume any liability for their actions, statements, or conduct. If you have any concerns about our sponsorship policies, please contact us at [sponsors@monerokon.org](mailto:sponsors@monerokon.org).
