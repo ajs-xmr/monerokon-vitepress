@@ -28,6 +28,7 @@ import CakeWallet from './sponsors/cake.png'
 import Trocador from './sponsors/trocador.svg'
 import Monerica from './sponsors/monerica.svg'
 import Firo from './sponsors/firo.svg'
+import Sweetwater from './sponsors/sweetwater.svg'
 
 import PrivacyGuardians from './community_partners/pg.jpg'
 import W3PN from './community_partners/w3pn.png'
@@ -40,6 +41,7 @@ const sponsors = [
     { url: 'https://www.vostoemisio.com', img: {src: VostoEmisio, alt: 'VOSTO EMISIO'} },
     { url: 'https://www.digilol.net', img: {src: Digilol, alt: 'Digilol'} },
     { url: 'https://monerica.com', img: {src: Monerica, alt: 'Monerica'} },
+    { url: 'https://sweetwater.consulting', img: {src: Sweetwater, alt: 'Sweetwater Digital Asset Consulting'} },
 ]
 
 const communityPartners = [
