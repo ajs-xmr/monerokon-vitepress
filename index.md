@@ -29,7 +29,7 @@ import Trocador from './sponsors/trocador.svg'
 import Monerica from './sponsors/monerica.svg'
 import Firo from './sponsors/firo.svg'
 import Sweetwater from './sponsors/sweetwater.svg'
-import XMRGlobal from './sponsors/xmrglobal.jpg'
+import XMRGlobal from './sponsors/xmrglobal.png'
 
 import PrivacyGuardians from './community_partners/pg.jpg'
 import W3PN from './community_partners/w3pn.png'
