@@ -63,7 +63,7 @@ To showcase your company or project at MoneroKon 2025, contact us at [sponsors@m
 </tr>
 <tr>
 <td>2 available (out of 6)</td>
-<td>5 available (out of 6)</td>
+<td>4 available (out of 6)</td>
 <td><s>2 available</s></td>
 </tr>
 <tr>

@@ -29,6 +29,7 @@ import Trocador from './sponsors/trocador.svg'
 import Monerica from './sponsors/monerica.svg'
 import Firo from './sponsors/firo.svg'
 import Sweetwater from './sponsors/sweetwater.svg'
+import XMRGlobal from './sponsors/xmrglobal.jpg'
 
 import PrivacyGuardians from './community_partners/pg.jpg'
 import W3PN from './community_partners/w3pn.png'
@@ -38,6 +39,7 @@ const sponsors = [
     { url: 'https://trocador.app', img: {src: Trocador, alt: 'Trocador' } },
     { url: 'https://cakewallet.com', img: {src: CakeWallet, alt: 'Cake Wallet'} },
     { url: 'https://firo.org', img: {src: Firo, alt: 'Firo'} },
+    { url: 'https://xmrglobal.io', img: {src: XMRGlobal, alt: 'XMRGlobal'} },
     { url: 'https://www.vostoemisio.com', img: {src: VostoEmisio, alt: 'VOSTO EMISIO'} },
     { url: 'https://www.digilol.net', img: {src: Digilol, alt: 'Digilol'} },
     { url: 'https://monerica.com', img: {src: Monerica, alt: 'Monerica'} },
