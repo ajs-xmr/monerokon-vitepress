@@ -54,7 +54,6 @@ const props = defineProps<{
 .wrapper {
     padding: 12px 64px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: auto;
     grid-gap: 1em;
     align-items: center;
@@ -74,7 +73,7 @@ const props = defineProps<{
 
 @media (min-width: 960px) {
     .wrapper {
-        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
         grid-gap: 3em;
     }
 

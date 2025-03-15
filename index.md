@@ -30,6 +30,7 @@ import Monerica from './sponsors/monerica.svg'
 import Firo from './sponsors/firo.svg'
 import Sweetwater from './sponsors/sweetwater.svg'
 import XMRGlobal from './sponsors/xmrglobal.png'
+import ShopinBit from './sponsors/shopinbit.svg'
 
 import PrivacyGuardians from './community_partners/pg.jpg'
 import W3PN from './community_partners/w3pn.png'
@@ -44,6 +45,7 @@ const sponsors = [
     { url: 'https://www.digilol.net', img: {src: Digilol, alt: 'Digilol'} },
     { url: 'https://monerica.com', img: {src: Monerica, alt: 'Monerica'} },
     { url: 'https://sweetwater.consulting', img: {src: Sweetwater, alt: 'Sweetwater Digital Asset Consulting'} },
+    { url: 'https://shopinbit.com', img: {src: ShopinBit, alt: 'ShopinBit'} },
 ]
 
 const communityPartners = [
