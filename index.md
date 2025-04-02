@@ -31,8 +31,8 @@ import FiroDark from './sponsors/firo-dark.svg'
 import SweetwaterLight from './sponsors/sweetwater-light.svg'
 import SweetwaterDark from './sponsors/sweetwater-dark.svg'
 
-import XMRGlobalLight from './sponsors/xmrglobal-light.png'
-import XMRGlobalDark from './sponsors/xmrglobal-dark.png'
+import XMRGlobalLight from './sponsors/xmrglobal-light.webp'
+import XMRGlobalDark from './sponsors/xmrglobal-dark.webp'
 
 import ShopinBitLight from './sponsors/shopinbit-light.svg'
 import ShopinBitDark from './sponsors/shopinbit-dark.svg'
