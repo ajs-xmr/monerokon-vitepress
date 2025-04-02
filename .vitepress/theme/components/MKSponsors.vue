@@ -65,6 +65,10 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
 
 .col {
     padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (min-width: 960px) {
@@ -87,8 +91,8 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .col {
-        height: 12em;
+    .inner-grid {
+        height: 8em;
     }
 }
 
@@ -105,10 +109,6 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
     .supporters .inner-grid {
         grid-template-columns: 1fr 1fr;
         gap: 3em;
-    }
-
-    .supporters .title {
-        margin-bottom: 1em;
     }
 }
 
@@ -136,6 +136,7 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
 
 .title {
     text-align: center;
+    margin-bottom: 0.5em;
 }
 
 .MKSponsorBtn {
