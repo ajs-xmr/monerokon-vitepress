@@ -17,7 +17,8 @@ import DigilolDark from './sponsors/digilol-dark.svg'
 import VostoEmisioLight from './sponsors/vostoemisio-light.png'
 import VostoEmisioDark from './sponsors/vostoemisio-dark.png'
 
-import CakeWallet from './sponsors/cake.png'
+import CakeWalletLight from './sponsors/cake_light.png'
+import CakeWalletDark from './sponsors/cake_dark.png'
 
 import TrocadorLight from './sponsors/trocador-light.svg'
 import TrocadorDark from './sponsors/trocador-dark.svg'
@@ -44,7 +45,7 @@ import Monerotopia from './community_partners/monerotopia.png'
 
 const sponsors = [
     { url: 'https://trocador.app', img: {light: TrocadorLight, dark: TrocadorDark, alt: 'Trocador' }, tier: 'hero' },
-    { url: 'https://cakewallet.com', img: {src: CakeWallet, alt: 'Cake Wallet'}, tier: 'hero' },
+    { url: 'https://cakewallet.com', img: {light: CakeWalletLight, dark: CakeWalletDark, alt: 'Cake Wallet'}, tier: 'hero' },
     { url: 'https://firo.org', img: {light: FiroLight, dark: FiroDark, alt: 'Firo'}, tier: 'contributor' },
     { url: 'https://xmrglobal.io', img: {light: XMRGlobalLight, dark: XMRGlobalDark, alt: 'XMRGlobal'}, tier: 'contributor' },
     { url: 'https://www.vostoemisio.com', img: {light: VostoEmisioLight, dark: VostoEmisioDark, alt: 'VOSTO EMISIO'}, tier: 'supporter' },
