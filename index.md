@@ -17,8 +17,8 @@ import DigilolDark from './sponsors/digilol-dark.svg'
 import VostoEmisioLight from './sponsors/vostoemisio-light.png'
 import VostoEmisioDark from './sponsors/vostoemisio-dark.png'
 
-import CakeWalletLight from './sponsors/cake_light.png'
-import CakeWalletDark from './sponsors/cake_dark.png'
+import CakeWalletLight from './sponsors/cake-light.webp'
+import CakeWalletDark from './sponsors/cake-dark.webp'
 
 import TrocadorLight from './sponsors/trocador-light.svg'
 import TrocadorDark from './sponsors/trocador-dark.svg'
@@ -38,6 +38,9 @@ import XMRGlobalDark from './sponsors/xmrglobal-dark.webp'
 import ShopinBitLight from './sponsors/shopinbit-light.svg'
 import ShopinBitDark from './sponsors/shopinbit-dark.svg'
 
+import XeovoLight from './sponsors/xeovo-light.svg'
+import XeovoDark from './sponsors/xeovo-dark.svg'
+
 import PrivacyGuardians from './community_partners/pg.jpg'
 import W3PN from './community_partners/w3pn.png'
 import LunarDAO from './community_partners/logo_lunardao.png'
@@ -53,6 +56,7 @@ const sponsors = [
     { url: 'https://monerica.com', img: {light: MonericaLight, dark: MonericaDark, alt: 'Monerica'}, tier: 'supporter' },
     { url: 'https://sweetwater.consulting', img: {light: SweetwaterLight, dark: SweetwaterDark, alt: 'Sweetwater Digital Asset Consulting'},tier: 'supporter' },
     { url: 'https://shopinbit.com', img: {light: ShopinBitLight, dark: ShopinBitDark, alt: 'ShopinBit'},tier: 'supporter' },
+    { url: 'https://xeovo.com', img: {light: XeovoLight, dark: XeovoDark, alt: 'Xeovo'},tier: 'supporter' },
 ]
 
 const communityPartners = [
