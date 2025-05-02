@@ -41,6 +41,11 @@ import ShopinBitDark from './sponsors/shopinbit-dark.svg'
 import XeovoLight from './sponsors/xeovo-light.svg'
 import XeovoDark from './sponsors/xeovo-dark.svg'
 
+import EdgeDark from './sponsors/edge-dark.svg'
+import EdgeLight from './sponsors/edge-light.svg'
+
+import Beldex from './sponsors/beldex.svg'
+
 import PrivacyGuardians from './community_partners/pg.jpg'
 import W3PN from './community_partners/w3pn.png'
 import LunarDAO from './community_partners/logo_lunardao.png'
@@ -54,9 +59,11 @@ const sponsors = [
     { url: 'https://www.vostoemisio.com', img: {light: VostoEmisioLight, dark: VostoEmisioDark, alt: 'VOSTO EMISIO'}, tier: 'supporter' },
     { url: 'https://www.digilol.net', img: {light: DigilolLight, dark: DigilolDark, alt: 'Digilol'}, tier: 'supporter' },
     { url: 'https://monerica.com', img: {light: MonericaLight, dark: MonericaDark, alt: 'Monerica'}, tier: 'supporter' },
-    { url: 'https://sweetwater.consulting', img: {light: SweetwaterLight, dark: SweetwaterDark, alt: 'Sweetwater Digital Asset Consulting'},tier: 'supporter' },
-    { url: 'https://shopinbit.com', img: {light: ShopinBitLight, dark: ShopinBitDark, alt: 'ShopinBit'},tier: 'supporter' },
-    { url: 'https://xeovo.com', img: {light: XeovoLight, dark: XeovoDark, alt: 'Xeovo'},tier: 'supporter' },
+    { url: 'https://sweetwater.consulting', img: {light: SweetwaterLight, dark: SweetwaterDark, alt: 'Sweetwater Digital Asset Consulting'}, tier: 'supporter' },
+    { url: 'https://shopinbit.com', img: {light: ShopinBitLight, dark: ShopinBitDark, alt: 'ShopinBit'}, tier: 'supporter' },
+    { url: 'https://xeovo.com', img: {light: XeovoLight, dark: XeovoDark, alt: 'Xeovo'}, tier: 'supporter' },
+    { url: 'https://edge.app', img: {light: EdgeLight, dark: EdgeDark, alt: 'Edge Wallet'}, tier: 'contributor' },
+    { url: 'https://beldex.io', img: {src: Beldex, alt: 'Beldex'}, tier: 'contributor' },
 ]
 
 const communityPartners = [

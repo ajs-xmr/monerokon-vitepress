@@ -25,7 +25,7 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
                     <div class="inner-grid">
                         <div class="cell" v-for="item in filterSponsorsByTier(props.sponsors, 'hero')">
                             <a :href="item.url">
-                                <VPImage class="hero-image" :image="item.img" />
+                                <VPImage :image="item.img" />
                             </a>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
                     <div class="inner-grid">
                         <div class="cell" v-for="item in filterSponsorsByTier(props.sponsors, 'contributor')">
                             <a :href="item.url">
-                                <VPImage class="hero-image" :image="item.img" />
+                                <VPImage :image="item.img" />
                             </a>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
                     <div class="inner-grid">
                         <div class="cell" v-for="item in filterSponsorsByTier(props.sponsors, 'supporter')">
                             <a :href="item.url">
-                                <VPImage class="hero-image" :image="item.img" />
+                                <VPImage :image="item.img" />
                             </a>
                         </div>
                     </div>
@@ -56,6 +56,7 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
 </template>
 
 <style scoped>
+
 .wrapper {
     display: grid;
     align-items: center;
@@ -91,6 +92,10 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .contributors .inner-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
     .inner-grid {
         height: 8em;
     }
@@ -106,9 +111,10 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
         gap: 1em;
     }
 
-    .supporters .inner-grid {
+    .supporters .inner-grid,
+    .contributors .inner-grid {
         grid-template-columns: 1fr 1fr;
-        gap: 3em;
+        gap: 1em;
     }
 }
 
@@ -117,20 +123,28 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
     gap: 1em;
 }
 
-.heroes .inner-grid,
-.contributors .inner-grid {
+.heroes .title {
+    color: var(--vp-c-brand-1);
+}
+
+.heroes .inner-grid {
     grid-template-columns: 1fr 1fr;
 }
 
 .heroes {
     background-color: var(--vp-c-bg-soft);
     border-radius: 20px;
+    border: 2px solid var(--vp-c-brand-1);
 }
 
-.contributors,
+.contributors {
+    border-radius: 20px;
+    border: 2px solid;
+}
+
 .supporters {
     border-radius: 20px;
-    border: 1px solid;
+    border: 2px solid var(--vp-c-bg-soft);
 
 }
 
