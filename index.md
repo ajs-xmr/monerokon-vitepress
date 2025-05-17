@@ -51,6 +51,9 @@ import W3PN from './community_partners/w3pn.png'
 import LunarDAO from './community_partners/logo_lunardao.png'
 import Monerotopia from './community_partners/monerotopia.png'
 
+import AmbCryptoLight from './community_partners/ambcrypto-light.webp'
+import AmbCryptoDark from './community_partners/ambcrypto-dark.webp'
+
 const sponsors = [
     { url: 'https://trocador.app', img: {light: TrocadorLight, dark: TrocadorDark, alt: 'Trocador' }, tier: 'hero' },
     { url: 'https://cakewallet.com', img: {light: CakeWalletLight, dark: CakeWalletDark, alt: 'Cake Wallet'}, tier: 'hero' },
@@ -71,6 +74,7 @@ const communityPartners = [
     { url: 'https://web3privacy.info', img: {src: W3PN, alt: 'Web3Privacy Now'} },
     { url: 'https://linktr.ee/lunardao', img: {src: LunarDAO, alt: 'LunarDAO'} },
     { url: 'https://monerotopia.com', img: {src: Monerotopia, alt: 'MoneroTopia'} },
+    { url: 'https://ambcrypto.com', img: {light: AmbCryptoLight, dark: AmbCryptoDark, alt: 'AMBCrypto'} },
 ]
 </script>
 

@@ -51,7 +51,7 @@ h2 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 2em;
 }
 
