@@ -44,6 +44,9 @@ import XeovoDark from './sponsors/xeovo-dark.svg'
 import EdgeDark from './sponsors/edge-dark.svg'
 import EdgeLight from './sponsors/edge-light.svg'
 
+import MajesticBankLight from './sponsors/majesticbank-light.svg'
+import MajesticBankDark from './sponsors/majesticbank-dark.svg'
+
 import Beldex from './sponsors/beldex.svg'
 
 import PrivacyGuardians from './community_partners/pg.jpg'
@@ -67,6 +70,7 @@ const sponsors = [
     { url: 'https://xeovo.com', img: {light: XeovoLight, dark: XeovoDark, alt: 'Xeovo'}, tier: 'supporter' },
     { url: 'https://edge.app', img: {light: EdgeLight, dark: EdgeDark, alt: 'Edge Wallet'}, tier: 'contributor' },
     { url: 'https://beldex.io', img: {src: Beldex, alt: 'Beldex'}, tier: 'contributor' },
+    { url: 'https://majesticbank.sc', img: {light: MajesticBankLight, dark: MajesticBankDark, alt: 'Majestic Bank'}, tier: 'contributor' },
 ]
 
 const communityPartners = [

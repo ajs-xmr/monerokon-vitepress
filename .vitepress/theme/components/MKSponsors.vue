@@ -93,7 +93,7 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
     }
 
     .contributors .inner-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .inner-grid {
@@ -113,7 +113,7 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
 
     .supporters .inner-grid,
     .contributors .inner-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 1em;
     }
 }
