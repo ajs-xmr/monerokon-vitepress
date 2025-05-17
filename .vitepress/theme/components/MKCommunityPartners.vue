@@ -1,12 +1,10 @@
 <script setup lang="ts">
-interface Image {
-  src: string;
-  alt: string;
-}
+import type { DefaultTheme } from 'vitepress/theme';
+import { VPImage } from 'vitepress/theme';
 
 interface Partner {
   url: string;
-  img: Image;
+  img: DefaultTheme.ThemeableImage;
 }
 
 interface Props {
@@ -22,7 +20,7 @@ defineProps<Props>();
     <div class="partners-grid">
       <span v-for="partner in partners" :key="partner.url" class="partner-item">
         <a :href="partner.url" target="_blank" rel="noopener noreferrer" class="partner-link">
-          <img :src="partner.img.src" :alt="partner.img.alt" class="partner-image" />
+          <VPImage :image="partner.img" />
         </a>
       </span>
     </div>
@@ -63,7 +61,7 @@ h2 {
   align-items: center;
 }
 
-.partner-image {
+.partner-link {
   max-width: 70px;
   height: auto;
 }
@@ -75,7 +73,7 @@ h2 {
     margin-top: 3em;
   }
 
-  .partner-image {
+  .partner-link {
     width: 60px;
   }
 }
