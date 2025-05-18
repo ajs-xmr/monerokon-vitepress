@@ -44,12 +44,18 @@ import XeovoDark from './sponsors/xeovo-dark.svg'
 import EdgeDark from './sponsors/edge-dark.svg'
 import EdgeLight from './sponsors/edge-light.svg'
 
+import MajesticBankLight from './sponsors/majesticbank-light.svg'
+import MajesticBankDark from './sponsors/majesticbank-dark.svg'
+
 import Beldex from './sponsors/beldex.svg'
 
 import PrivacyGuardians from './community_partners/pg.jpg'
 import W3PN from './community_partners/w3pn.png'
 import LunarDAO from './community_partners/logo_lunardao.png'
 import Monerotopia from './community_partners/monerotopia.png'
+
+import AmbCryptoLight from './community_partners/ambcrypto-light.webp'
+import AmbCryptoDark from './community_partners/ambcrypto-dark.webp'
 
 const sponsors = [
     { url: 'https://trocador.app', img: {light: TrocadorLight, dark: TrocadorDark, alt: 'Trocador' }, tier: 'hero' },
@@ -64,6 +70,7 @@ const sponsors = [
     { url: 'https://xeovo.com', img: {light: XeovoLight, dark: XeovoDark, alt: 'Xeovo'}, tier: 'supporter' },
     { url: 'https://edge.app', img: {light: EdgeLight, dark: EdgeDark, alt: 'Edge Wallet'}, tier: 'contributor' },
     { url: 'https://beldex.io', img: {src: Beldex, alt: 'Beldex'}, tier: 'contributor' },
+    { url: 'https://majesticbank.sc', img: {light: MajesticBankLight, dark: MajesticBankDark, alt: 'Majestic Bank'}, tier: 'contributor' },
 ]
 
 const communityPartners = [
@@ -71,6 +78,7 @@ const communityPartners = [
     { url: 'https://web3privacy.info', img: {src: W3PN, alt: 'Web3Privacy Now'} },
     { url: 'https://linktr.ee/lunardao', img: {src: LunarDAO, alt: 'LunarDAO'} },
     { url: 'https://monerotopia.com', img: {src: Monerotopia, alt: 'MoneroTopia'} },
+    { url: 'https://ambcrypto.com', img: {light: AmbCryptoLight, dark: AmbCryptoDark, alt: 'AMBCrypto'} },
 ]
 </script>
 
