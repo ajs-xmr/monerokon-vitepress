@@ -57,6 +57,9 @@ import Monerotopia from './community_partners/monerotopia.png'
 import AmbCryptoLight from './community_partners/ambcrypto-light.webp'
 import AmbCryptoDark from './community_partners/ambcrypto-dark.webp'
 
+import CryptoNewsLight from './community_partners/cryptonews-light.svg'
+import CryptoNewsDark from './community_partners/cryptonews-dark.svg'
+
 const sponsors = [
     { url: 'https://trocador.app', img: {light: TrocadorLight, dark: TrocadorDark, alt: 'Trocador' }, tier: 'hero' },
     { url: 'https://cakewallet.com', img: {light: CakeWalletLight, dark: CakeWalletDark, alt: 'Cake Wallet'}, tier: 'hero' },
@@ -79,6 +82,7 @@ const communityPartners = [
     { url: 'https://linktr.ee/lunardao', img: {src: LunarDAO, alt: 'LunarDAO'} },
     { url: 'https://monerotopia.com', img: {src: Monerotopia, alt: 'MoneroTopia'} },
     { url: 'https://ambcrypto.com', img: {light: AmbCryptoLight, dark: AmbCryptoDark, alt: 'AMBCrypto'} },
+    { url: 'https://crypto.news', img: {light: CryptoNewsLight, dark: CryptoNewsDark, alt: 'Crypto News'} },
 ]
 </script>
 
