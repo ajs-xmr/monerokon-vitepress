@@ -29,6 +29,7 @@ export default {
                             in privacy-enhancing technologies and distributed systems.
                         </p>
                         <p><span class="thicc">Date: </span>20th - 22nd June 2O25</p>
+                        <p><span class="thicc">Schedule: </span><a href="https://schedule.monerokon.org" target="_blank">schedule.monerokon.org</a></p>
                         <p><span class="thicc">Location: </span>Second
                             Culture / La Fabrika</p>
                         <p style="margin-top:1em;">Venue address: 475/43, Dělnická, 170 00 Praha 7, Czechia</p>
