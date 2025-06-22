@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Sponsor
-description: To showcase your company or project at MoneroKon 2025, sponsor us.
+description: To showcase your company or project at MoneroKon 2026, sponsor us.
 head:
   - - meta
     - name: 'og:image'
@@ -15,7 +15,7 @@ footer: false
 
 # Sponsorship
 
-To showcase your company or project at MoneroKon 2025, contact us at [sponsors@monerokon.org](mailto:sponsors@monerokon.org).
+To showcase your company or project at MoneroKon 2026, contact us at [sponsors@monerokon.org](mailto:sponsors@monerokon.org).
 
 <table>
 <thead>
@@ -62,14 +62,14 @@ To showcase your company or project at MoneroKon 2025, contact us at [sponsors@m
 <td>6 x Free General Admission promotional codes</td>
 </tr>
 <tr>
-<td><s>6 available</s></td>
-<td>1 available (out of 6)</td>
-<td><s>2 available</s></td>
+<td>6 available</td>
+<td>6 available</td>
+<td>2 available</td>
 </tr>
 <tr>
-<td><s>2100 EUR*</s> <b>SOLD OUT</b></td>
+<td>2100 EUR*</td>
 <td>5200 EUR</td>
-<td><s>9900 EUR</s> <b>SOLD OUT</b></td>
+<td>9900 EUR</td>
 </tr>
 </tbody>
 </table>

@@ -28,22 +28,22 @@ export default {
                             researchers, and developers and is designed to disseminate scientific and technical results
                             in privacy-enhancing technologies and distributed systems.
                         </p>
-                        <p><span class="thicc">Date: </span>20th - 22nd June 2O25</p>
+                        <!-- <p><span class="thicc">Date: </span>20th - 22nd June 2O25</p>
                         <p><span class="thicc">Schedule: </span><a href="https://schedule.monerokon.org" target="_blank">schedule.monerokon.org</a></p>
                         <p><span class="thicc">Location: </span>Second
                             Culture / La Fabrika</p>
                         <p style="margin-top:1em;">Venue address: 475/43, Dělnická, 170 00 Praha 7, Czechia</p>
-                        <small>50°06'12.23"N, 14°27'01.8"E</small>
+                        <small>50°06'12.23"N, 14°27'01.8"E</small> -->
 
                     </div>
                 </div>
                 <div style="min-height: 15em">
-                    <l-map style="z-index: 0" ref="map" v-model:zoom="zoom" :center="[50.103398, 14.450502]"
+                    <!-- <l-map style="z-index: 0" ref="map" v-model:zoom="zoom" :center="[50.103398, 14.450502]"
                         :use-global-leaflet="false">
                         <l-tile-layer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" layer-type="base"
                             name="OpenStreetMap" :attribution="attribution"></l-tile-layer>
                         <l-marker :lat-lng="[50.103398, 14.450502]" />
-                    </l-map>
+                    </l-map> -->
                 </div>
             </div>
         </div>
