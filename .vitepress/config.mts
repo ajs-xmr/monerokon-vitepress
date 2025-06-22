@@ -19,7 +19,6 @@ export default defineConfig({
         text: 'Donate', items: [
           { text: 'Cryptocurrency', link: 'https://trocador.app/anonpay/?ticker_to=usdc&network_to=MATIC&address=0x22942517e3eDEF1e1016070951a7081F99AE50A3&donation=True&simple_mode=True&amount=0.0&name=MoneroKon&description=MoneroKon+donation&email=orga@monerokon.org&ref=DMOXzCgwoG&ticker_from=xmr&network_from=Mainnet&bgcolor=' },
           { text: 'Card', link: 'https://donate.stripe.com/3cs01M9qtbol396fYY' },
-          { text: 'Bank Transfer', link: 'https://twed.org/donate.html#bank-tranfer' }
         ]
       },
       {
