@@ -1,0 +1,8 @@
+{
+  "names": {
+    "monerokon": "f5de9a5b35fbd05a2cbed4d23ae5c1d25ada79c5032f0c2a399c3bbd28832c2c"
+  },
+  "relays": {
+    "f5de9a5b35fbd05a2cbed4d23ae5c1d25ada79c5032f0c2a399c3bbd28832c2c": ["wss://relay.primal.net/"]
+  }
+}
