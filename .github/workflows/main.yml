@@ -38,6 +38,7 @@ jobs:
         with:
           name: vitepress-dist
           path: .vitepress/dist
+          include-hidden-files: true
           retention-days: 1
 
   # Deployment job
