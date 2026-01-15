@@ -43,18 +43,18 @@ To showcase your company or project at MoneroKon 2026, contact us at [sponsors@m
 </tr>
 <tr>
 <td> - </td>
-<td><strong>Exclusive Interview</strong> - interview with the company shared on all MoneroKon social media accounts</td>
-<td><strong>Exclusive Interview</strong> - interview with the company shared on all MoneroKon social media accounts</td>
+<td><strong>Speaking Opportunity</strong> - dedicated speaking slot to discuss your project on the main stage</td>
+<td><strong>Speaking Opportunity</strong> - dedicated speaking slot to discuss your project on the main stage</td>
 </tr>
 <tr>
 <td> - </td>
-<td>Table, table covers, 2 chairs, 3x3m tent in courtyard (foodtruck area)</td>
-<td>Table, table covers, 2 chairs near entrance of Studio 1 (main stage)</td>
+<td>Small professional booth with a printed backwall, lights, carpet, counter and chairs (indoors)</td>
+<td>Large professional booth with a printed backwall, lights, carpet, counter and chairs (indoors)</td>
 </tr>
 <tr>
 <td>Small-size company logo placement on roll up sponsors banner</td>
-<td>Medium-size company logo placement on roll up sponsors banner and featured prominently on roll up banners in the Institute of Cryptoanarchy stage ("second stage")</td>
-<td>Large-size company logo placement on roll up sponsors banner, company logo featured prominently on registration desk near front entrance and banners in Studio 1 stage ("main stage")</td>
+<td>Medium-size company logo placement on roll up sponsors banner and featured prominently on roll up banners</td>
+<td>Large-size company logo placement on roll up sponsors banner, company logo featured prominently on registration desk</td>
 </tr>
 <tr>
 <td>2 x Free General Admission promotional codes</td>
@@ -62,14 +62,14 @@ To showcase your company or project at MoneroKon 2026, contact us at [sponsors@m
 <td>6 x Free General Admission promotional codes</td>
 </tr>
 <tr>
-<td>6 available</td>
+<td><s>6</s> 5 available</td>
 <td>6 available</td>
 <td>2 available</td>
 </tr>
 <tr>
-<td>2100 EUR*</td>
-<td>5200 EUR</td>
-<td>9900 EUR</td>
+<td>$3499*</td>
+<td>$6999</td>
+<td>$14,999</td>
 </tr>
 </tbody>
 </table>

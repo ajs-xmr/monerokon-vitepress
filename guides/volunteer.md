@@ -33,8 +33,7 @@ Thank you for joining the Monero\[kon\] Community and dedicating your time to un
 8. Return to step 6 and repeat.
 
 ## What is Monerokon?
-
-Monero Konferenco (“MoneroKon”) is an annual meeting of privacy advocates, cypherpunks, researchers, and developers designed to disseminate scientific and technical results in privacy-enhancing technologies and distributed systems. Marking its fourth year, the upcoming 3-day event will be held once again at the renowned Paralelní Polis in the Czech Republic from June 7–9, 2024. Come participate in discussions and help us move privacy forward one conversation at a time.
+Monero Konferenco (“MoneroKon”) is an annual meeting of privacy advocates, cypherpunks, researchers, and developers designed to disseminate scientific and technical results in privacy-enhancing technologies and distributed systems. The upcoming 3-day event will this time be held in the Kinoteka at the Palace of Culture and Science, in Warsaw, Poland from June 5–7, 2026. Come participate in discussions and help us move privacy forward one conversation at a time.
 
 ## What is a Volunteer?
 
@@ -47,7 +46,6 @@ Volunteering offers some advantages. While we believe that contributing is grati
 - Recognition within the community.
 - A free Monerokon ticket + T-shirt.
 - Complimentary coffee, water, and one free meal per day/shift.
-- A limited Monerokon volunteer baseball cap.
 - Access to the Volunteer Hub and the volunteer lounge with its relaxing atmosphere.
 
 ## Expectations and Guidelines
@@ -74,4 +72,4 @@ For those aspiring to go above and beyond, consider assisting with teardown rath
 
 ## Communication Protocol
 
-Effective communication is key to ensuring a smooth and coordinated event. To facilitate seamless interaction among our team members, radios will be utilized as the primary mode of communication. All seasoned organizers (aka staff) will be equipped with radios, which will also be available for volunteers at the registration desk and at the IoC (Institute of Cryptoanarchy). This system enables quick and efficient information exchange, allowing us to address any issues promptly and maintain a well-organized environment throughout the event.
+Effective communication is key to ensuring a smooth and coordinated event. To facilitate seamless interaction among our team members, radios will be utilized as the primary mode of communication. All seasoned organizers (aka staff) will be equipped with radios, which will also be available for volunteers at the registration desk. This system enables quick and efficient information exchange, allowing us to address any issues promptly and maintain a well-organized environment throughout the event.

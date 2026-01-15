@@ -9,6 +9,7 @@ interface Partner {
 
 interface Props {
   partners: Partner[];
+  organizer: Partner;
 }
 
 defineProps<Props>();
@@ -25,6 +26,21 @@ defineProps<Props>();
       </span>
     </div>
   </div>
+  <!-- TODO: improve this layout -->
+  <div class="organized-by">
+    <h2 class="title">Organized by:</h2>
+    <div class="partners-grid">
+      <a
+        :href="organizer.url"
+        class="organizer-link"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Visit the organizer website"
+      >
+        <VPImage :image="organizer.img" />
+      </a>
+    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -38,12 +54,14 @@ h2 {
   text-align: center;
 }
 
-.community-partners {
+.community-partners,
+.organized-by {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   gap: 2em;
+  margin-bottom: 2em;
 }
 
 .partners-grid {
@@ -64,6 +82,12 @@ h2 {
 .partner-link {
   max-width: 70px;
   height: auto;
+}
+
+.organizer-link {
+  height: auto;
+  max-width: 75px;
+  margin-right: 0.55em;
 }
 
 @media (max-width: 960px) {

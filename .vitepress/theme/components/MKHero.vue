@@ -14,9 +14,11 @@ const logo = { dark: "/mklight-title-logo.svg", light: "/mkdark-title-logo.svg",
                     <h2 class="hero-text">A technical conference in <span class="bold">privacy and financial
                             technology</span></h2>
                     <div class="hero-btn">
-                       <!-- <VPButton text="Buy Tickets" href="https://shop.twed.org/twed/MK5"></VPButton>
-                        <VPButton theme="alt" text="View Schedule" href="https://cfp.twed.org/mk5/schedule/"></VPButton>
-                        <VPButton theme="sponsor" text="Live Stream" href="https://www.youtube.com/@MoneroCommunityWorkgroup/live"></VPButton> -->
+                        <VPButton text="Buy Tickets" href="https://shop.twed.org/twed/MK6"></VPButton>
+                        <VPButton theme="alt" text="Submit Talks" href="https://cfp.twed.org/mk6/cfp"></VPButton>
+                        <VPButton theme="sponsor" text="Sponsor" href="/sponsor"></VPButton>
+                        <!--<VPButton theme="alt" text="View Schedule" href="https://cfp.twed.org/mk6/schedule/"></VPButton>
+                        <VPButton theme="sponsor" text="Live Stream" href="https://www.youtube.com/@MoneroCommunityWorkgroup/live"></VPButton>-->
                     </div>
                 </div>
             </div>

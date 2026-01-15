@@ -44,12 +44,13 @@ export default defineConfig({
           { text: '2019', link: '/past_events/2019' },
         ]
       },
-      { text: 'Blog', link: '/blog/mk25-press-release' },
+      { text: 'Blog', link: '/blog/mk26-press-release' },
     ],
 
     sidebar: [
       {
         text: 'Blog', items: [
+          { text: 'MoneroKon26 Press Release', link: '/blog/mk26-press-release' },
           { text: 'MoneroKon25 Press Release', link: '/blog/mk25-press-release' },
           { text: 'MoneroKon24 Press Release', link: '/blog/mk24-press-release' },
         ]
@@ -84,7 +85,7 @@ export default defineConfig({
 
     footer: {
       message: 'T.E. z.s., Rybná 716/24, Staré Město, 110 00 Praha 1, Czechia<br>T.E. does not endorse, support, or condone the actions, beliefs, or affiliations of its sponsors.',
-      copyright: 'Copyright © 2025 T.E. z.s.'
+      copyright: 'Copyright © 2026 T.E. z.s.'
     },
   }
 })
