@@ -13,5 +13,5 @@ const sponsors = [{
 </script>
 
 <template>
-      <VPDocAsideSponsors :data="sponsors" />
+      <!--<VPDocAsideSponsors :data="sponsors" />-->
 </template>
