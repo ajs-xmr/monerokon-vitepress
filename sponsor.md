@@ -67,8 +67,8 @@ To showcase your company or project at MoneroKon 2026, contact us at [sponsors@m
 <td>2 available</td>
 </tr>
 <tr>
-<td>$3499*</td>
-<td>$6999</td>
+<td>$3,499*</td>
+<td>$8,499</td>
 <td>$14,999</td>
 </tr>
 </tbody>
