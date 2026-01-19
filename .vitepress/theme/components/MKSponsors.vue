@@ -15,6 +15,9 @@ const props = defineProps<{
 const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
     return sponsors.filter(item => item.tier === tier);
 }
+const hasTier = (tier: string) => {
+    return filterSponsorsByTier(props.sponsors, tier).length > 0
+}
 </script>
 <template>
     <div class="MKSponsors">
@@ -22,32 +25,41 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
             <div class="wrapper">
                 <div class="heroes col">
                     <h3 class="title">Cypherpunk Heroes</h3>
-                    <div class="inner-grid">
+                    <div v-if="hasTier('hero')" class="inner-grid">
                         <div class="cell" v-for="item in filterSponsorsByTier(props.sponsors, 'hero')">
                             <a :href="item.url">
                                 <VPImage :image="item.img" />
                             </a>
                         </div>
                     </div>
+                    <div v-else class="cell no-sponsors">
+                        <a href="/sponsor">[Your logo here]</a>
+                    </div>
                 </div>
                 <div class="contributors col">
                     <h3 class="title">Contributors</h3>
-                    <div class="inner-grid">
+                    <div v-if="hasTier('contributor')" class="inner-grid">
                         <div class="cell" v-for="item in filterSponsorsByTier(props.sponsors, 'contributor')">
                             <a :href="item.url">
                                 <VPImage :image="item.img" />
                             </a>
                         </div>
                     </div>
+                    <div v-else class="cell no-sponsors">
+                        <a href="/sponsor">[Your logo here]</a>
+                    </div>
                 </div>
                 <div class="supporters col">
                     <h3 class="title">Supporters</h3>
-                    <div class="inner-grid">
+                    <div v-if="hasTier('supporter')" class="inner-grid">
                         <div class="cell" v-for="item in filterSponsorsByTier(props.sponsors, 'supporter')">
                             <a :href="item.url">
                                 <VPImage :image="item.img" />
                             </a>
                         </div>
+                    </div>
+                    <div v-else class="cell no-sponsors">
+                        <a href="/sponsor">[Your logo here]</a>
                     </div>
                 </div>
             </div>
@@ -99,6 +111,10 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
     .inner-grid {
         height: 8em;
     }
+
+    .no-sponsors {
+        height: 8em;
+    }
 }
 
 @media (max-width: 960px) {
@@ -139,13 +155,12 @@ const filterSponsorsByTier = (sponsors: Sponsor[], tier: string) => {
 
 .contributors {
     border-radius: 20px;
-    border: 2px solid;
+    border: 2px solid var(--mk-sponsors-contributors-border);
 }
 
 .supporters {
     border-radius: 20px;
-    border: 2px solid var(--vp-c-bg-soft);
-
+    border: 2px solid;
 }
 
 .title {
