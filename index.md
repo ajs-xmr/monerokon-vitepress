@@ -17,10 +17,13 @@ import BFFDark from './community_partners/bff-dark.png'
 import OrangeFrenLight from './organizers/orangefren-light.png'
 import OrangeFrenDark from './organizers/orangefren-dark.png'
 
+import TrocadorLight from './sponsors/trocador-light.svg'
+import TrocadorDark from './sponsors/trocador-dark.svg'
 import VostoEmisioLight from './sponsors/vostoemisio-light.png'
 import VostoEmisioDark from './sponsors/vostoemisio-dark.png'
 
 const sponsors = [
+    { url: 'https://trocador.app', img: {light: TrocadorLight, dark: TrocadorDark, alt: 'Trocador' }, tier: 'hero' },
     { url: 'https://www.vostoemisio.com', img: {light: VostoEmisioLight, dark: VostoEmisioDark, alt: 'VOSTO EMISIO'}, tier: 'supporter' },
 ]
 
@@ -35,6 +38,6 @@ const organizer = {
 </script>
 
 <MKHero />
-<!--<MKSponsors :sponsors="sponsors" :invite="true" title="Sponsors:" />-->
+<MKSponsors :sponsors="sponsors" :invite="true" title="Sponsors:" />
 <MKEventInfo />
 <MKCommunityPartners :partners="communityPartners" :organizer="organizer" />
