@@ -64,7 +64,7 @@ To showcase your company or project at MoneroKon 2026, contact us at [sponsors@m
 <tr>
 <td><s>6</s> 4 available</td>
 <td>6 available</td>
-<td><s>2</s> 1 available</td>
+<td><s>2</s> 0 available</td>
 </tr>
 <tr>
 <td>$3,499*</td>
