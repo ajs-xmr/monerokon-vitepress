@@ -22,11 +22,13 @@ import TrocadorDark from './sponsors/trocador-dark.svg'
 import VostoEmisioLight from './sponsors/vostoemisio-light.png'
 import VostoEmisioDark from './sponsors/vostoemisio-dark.png'
 import KycNotMe from './sponsors/kycnotme.svg'
-import CakeWallet from './sponsors/cake.png'
+
+import CakeWalletLight from './sponsors/cake-light.svg'
+import CakeWalletDark from './sponsors/cake-dark.svg'
 
 const sponsors = [
     { url: 'https://trocador.app', img: {light: TrocadorLight, dark: TrocadorDark, alt: 'Trocador' }, tier: 'hero' },
-    { url: 'https://cakewallet.com', img: {src: CakeWallet, alt: 'Cake Wallet'}, tier: 'hero' },
+    { url: 'https://cakewallet.com', img: {light: CakeWalletLight, dark: CakeWalletDark, alt: 'Cake Wallet'}, tier: 'hero' },
     { url: 'https://www.vostoemisio.com', img: {light: VostoEmisioLight, dark: VostoEmisioDark, alt: 'VOSTO EMISIO'}, tier: 'supporter' },
     { url: 'https://kycnot.me', img: { src: KycNotMe, alt: 'KYCNot.me' }, tier: 'supporter' },
 ]
