@@ -25,12 +25,14 @@ import KycNotMe from './sponsors/kycnotme.svg'
 
 import CakeWalletLight from './sponsors/cake-light.svg'
 import CakeWalletDark from './sponsors/cake-dark.svg'
+import Monerica from './sponsors/monerica.png'
 
 const sponsors = [
     { url: 'https://trocador.app', img: {light: TrocadorLight, dark: TrocadorDark, alt: 'Trocador' }, tier: 'hero' },
     { url: 'https://cakewallet.com', img: {light: CakeWalletLight, dark: CakeWalletDark, alt: 'Cake Wallet'}, tier: 'hero' },
     { url: 'https://www.vostoemisio.com', img: {light: VostoEmisioLight, dark: VostoEmisioDark, alt: 'VOSTO EMISIO'}, tier: 'supporter' },
     { url: 'https://kycnot.me', img: { src: KycNotMe, alt: 'KYCNot.me' }, tier: 'supporter' },
+    { url: 'https://monerica.com', img: { src: Monerica, alt: 'Monerica' }, tier: 'supporter' },
 ]
 
 const communityPartners = [
