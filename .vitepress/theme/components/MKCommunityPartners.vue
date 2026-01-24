@@ -26,20 +26,17 @@ defineProps<Props>();
       </span>
     </div>
   </div>
-  <!-- TODO: improve this layout -->
   <div class="organized-by">
     <h2 class="title">Organized by:</h2>
-    <div class="partners-grid">
-      <a
-        :href="organizer.url"
-        class="organizer-link"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Visit the organizer website"
-      >
-        <VPImage :image="organizer.img" />
-      </a>
-    </div>
+    <a
+      :href="organizer.url"
+      class="organizer-link"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Visit the organizer website"
+    >
+      <VPImage :image="organizer.img" />
+    </a>
   </div>
 </template>
 
@@ -57,20 +54,22 @@ h2 {
 .community-partners,
 .organized-by {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 2em;
-  margin-bottom: 2em;
+  gap: 0.5em;
+  margin-bottom: 1em;
 }
 
 .partners-grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   text-align: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 2em;
+  gap: 2.5em;
+  width: min(100%, 760px);
 }
 
 .partner-item {
@@ -79,26 +78,23 @@ h2 {
   align-items: center;
 }
 
-.partner-link {
-  max-width: 70px;
-  height: auto;
-}
-
+.partner-link,
 .organizer-link {
   height: auto;
-  max-width: 75px;
-  margin-right: 0.55em;
+  max-width: 90px;
+  padding: 0;
+  margin: 0 auto;
 }
 
 @media (max-width: 960px) {
-  .community-partners {
-    flex-direction: column;
-    grid-gap: 2em;
-    margin-top: 3em;
+  .community-partners,
+  .organized-by {
+    margin-top: 2em;
+    gap: 1em;
   }
 
-  .partner-link {
-    width: 60px;
+  .partners-grid {
+    width: min(100%, 520px);
   }
 }
 </style>
