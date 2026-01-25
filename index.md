@@ -28,6 +28,7 @@ import CakeWalletLight from './sponsors/cake-light.svg'
 import CakeWalletDark from './sponsors/cake-dark.svg'
 import Monerica from './sponsors/monerica.png'
 import Xchangeme from './sponsors/xchangeme.png'
+import WizardSwap from './sponsors/wizardswap.png'
 
 const sponsors = [
     { url: 'https://trocador.app', img: {light: TrocadorLight, dark: TrocadorDark, alt: 'Trocador' }, tier: 'hero' },
@@ -36,6 +37,7 @@ const sponsors = [
     { url: 'https://kycnot.me', img: { src: KycNotMe, alt: 'KYCNot.me' }, tier: 'supporter' },
     { url: 'https://monerica.com', img: { src: Monerica, alt: 'Monerica' }, tier: 'supporter' },
     { url: 'https://xchange.me', img: { src: Xchangeme, alt: 'Xchange.me' }, tier: 'supporter' },
+    { url: 'https://wizardswap.io', img: { src: WizardSwap, alt: 'WizardSwap' }, tier: 'contributor' },
 ]
 
 const communityPartners = [
