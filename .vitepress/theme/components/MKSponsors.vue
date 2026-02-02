@@ -105,15 +105,15 @@ const hasTier = (tier: string) => {
     }
 
     .contributors .inner-grid {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .inner-grid {
-        height: 8em;
+        height: 10em;
     }
 
     .no-sponsors {
-        height: 8em;
+        height: 9em;
     }
 }
 

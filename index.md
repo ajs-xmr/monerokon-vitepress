@@ -30,6 +30,7 @@ import Monerica from './sponsors/monerica.png'
 import Xchangeme from './sponsors/xchangeme.png'
 import WizardSwap from './sponsors/wizardswap.png'
 import Beldex from './sponsors/beldex.svg'
+import CCECash from './sponsors/ccecash.svg'
 
 const sponsors = [
     { url: 'https://trocador.app', img: {light: TrocadorLight, dark: TrocadorDark, alt: 'Trocador' }, tier: 'hero' },
@@ -40,6 +41,7 @@ const sponsors = [
     { url: 'https://xchange.me', img: { src: Xchangeme, alt: 'Xchange.me' }, tier: 'supporter' },
     { url: 'https://wizardswap.io', img: { src: WizardSwap, alt: 'WizardSwap' }, tier: 'contributor' },
     { url: 'https://beldex.io', img: { src: Beldex, alt: 'Beldex' }, tier: 'contributor' },
+    { url: 'https://cce.cash', img: { src: CCECash, alt: 'CCE Cash' }, tier: 'contributor' },
 ]
 
 const communityPartners = [
